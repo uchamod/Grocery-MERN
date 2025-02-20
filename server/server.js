@@ -1,8 +1,8 @@
 import cors from "cors";
+import dotenv from "dotenv";
 import express from "express";
 import { connectDB } from "./db/database.js";
 import ProductRoute from "./routes/products.routes.js";
-import dotenv from "dotenv";
 dotenv.config();
 
 //crate app
